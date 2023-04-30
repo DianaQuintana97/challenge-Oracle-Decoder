@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="js/encriptar.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>Encriptador DianaQ</title>
+</head>
+<body>
+    <header>
+        <div class="logo_head">
+            <img class="logo_img" src="imagenes/logo2.PNG" alt="">           
+        </div>
+        <h1 class="titulo">Encriptador</h1>
+    </header>
+    <main>
+        <div class="rectangulo1"></div>
+        <form action>
+            <textarea name="text_inicial" id="text_inicial" placeholder="Ingrese el texto aqui" cols="30" rows="10"></textarea>
+        </form>
+        <div class="advertencia">
+            <img class="advertencia_img" src="imagenes/bi_exclamation-circle-fill.png" alt="">
+            <p class="advertencia_p">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="botones">
+            <input type="submit" class="encriptar" value="Encriptar" onclick="validaText('text_inicial')">
+            <input type="submit" class="desencriptar" value="Desencriptar" onclick="desencriptar('text_inicial')">
+        </div>
+        <aside>
+            <div class="rectangulo"></div>
+            <div id="sinText">
+                <img class="buca_img" src="imagenes/29943dea02925e3b1f046cee1b53a682.png" alt="">
+                <div class="msg_fount">
+                
+                    <b class="text1">Ningún mensaje fue encontrado</b>
+                    <p class="text2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div id="conText" style="display: none;">
+                <textarea readonly name="text_final" id="text_final">Este textarea no se puede editar.</textarea>
+                <input type="submit" class="copiar fas fa-search" value="Copiar" onclick="copiarAlPortapapeles('text_final')" >
+            </div>
+        </aside>
+        
+    </main>
+
+    <footer>
+       
+        <div class="redes-sociales">
+            <div class="author">© Diana Quintana </div>
+          <a href="https://github.com/DianaQuintana97" ><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/dianaQG97"><i class="fab fa-linkedin"></i></a>
+          <a href="https://instagram.com/dianna_quintana?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+      
+    
+</body>
+</html>
