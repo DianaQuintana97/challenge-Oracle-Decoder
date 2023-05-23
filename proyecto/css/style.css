@@ -304,3 +304,117 @@ footer {
   .redes-sociales{
     display: ruby;
   }
+  /* Estilos para teléfonos */
+@media (max-width: 767px) {
+    /* Estilos específicos para pantallas con un ancho máximo de 767px */
+   .logo_img{
+    left: 8%;
+    top: 2%;
+    max-width: 15%;
+   }
+   .titulo{
+    font-size: larger;
+    top: 4%;
+    left: 26%;
+   }
+   .rectangulo1{
+    top: 10%;
+    height: 83%;
+   }
+   #text_inicial{
+    top: 12%;
+    width: 79%;
+    height: 35%;
+   }
+   .advertencia{
+    top: 47%;
+   }
+   .botones{
+    top: 50%;
+    width: 77%;
+    height: 4%;
+   }
+   .encriptar{
+    height: 93%;
+   }
+   .desencriptar{
+    height: 93%;
+   }
+   .rectangulo{
+    top: 55%;
+    width: 79%;
+    height: 35%;
+    left: 12%;
+   }
+   .buca_img{
+    top: 57%;
+    max-width: 34%;
+    left: 36%;
+   }
+   .msg_fount{
+    top: 71%;
+    left: 12%;
+    width: 79%;
+   }
+   footer{
+    top: 93%;
+    left: 18%;
+   }
+  }
+  
+  /* Estilos para tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos específicos para pantallas con un ancho mínimo de 768px y un ancho máximo de 1023px */
+    .logo_img{
+      top: 5%;
+      max-width: 15%;
+    }
+    .titulo{
+      top: 8%;
+      left: 27%;
+    }
+    .rectangulo1{
+      width: 90%;
+      top: 18%;
+      left: 5%;
+      height: 81%;
+    }
+    #text_inicial{
+      width: 81%;
+      left: 10%;
+      height: 34%;
+    }
+    .advertencia{
+      top: 56%;
+    }
+    .botones{
+      width: 74%;
+      height: 4%;
+      top: 58%;
+    }
+    .encriptar{
+      height: 85%;
+    }
+    .desencriptar{
+      height: 85%;
+    }
+    .rectangulo{
+      width: 81%;
+      left: 10%;
+      height: 34%;
+      top: 63.5%;
+    }
+    .buca_img{
+      top: 72%;
+      left: 17%;
+      max-width: 30%;
+    }
+    .msg_fount{
+      left: 48%;
+      top: 73%;
+    }
+    footer{
+      top: 99%;
+      left: 38%;
+    }
+  }
